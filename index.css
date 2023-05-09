@@ -1,0 +1,234 @@
+body{
+    
+    background-color: wheat;
+     
+    
+}
+
+section img{
+
+    width: 700px;
+    height: 300px;  
+    display: flex;
+    
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    position: relative;
+
+}
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li {
+    font-size: 20px;
+    padding: 20px;
+    background: #ffffff;
+    display: block;
+    font-weight:600;
+    
+}
+
+.menu .navbar ul li a {
+    color:rgb(0, 180, 252);
+}
+
+.menu .navbar ul li:hover {
+    background: #7e10c7ec;
+    transition: background-color 1s;
+}
+
+#menu {
+    display: none;
+}
+
+
+
+.menu label {
+    cursor: pointer;
+    display: none;
+
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+th{
+    color: blue;
+}
+tr{
+    color: red;
+}
+#parrafo{
+    color: red;
+
+}
+
+.parrafo{
+    color: mediumpurple;
+    text-align: justify;
+}
+section li{
+    color: rgba(126, 50, 86, 0.521);
+}
+section h1{
+    font-size: xx-large;
+    color: blue;
+}
+
+h1{
+    border: 2px solid rgb(170, 66, 48);
+    border-radius: 10px;
+    color: rgba(2, 172, 245, 0.301);  
+    padding: 20px;
+    text-align: center;
+
+}
+
+h2{
+    border: 2px solid rgba(133, 90, 111, 0.267);
+    border-radius: 10px;
+    color: rgba(80, 87, 83, 0.404);  
+    padding: 20px;
+    text-align: center;
+}
+h3{
+border: 2px solid tomato;
+border-radius: 5px;
+color: rgba(2, 172, 245,);
+text-align: center;
+}
+
+h4{
+border: 2px solid rgba(71, 255, 237);
+border-radius: 20px;
+color: rgba(2, 172, 245, );
+padding: 20px;
+text-align: center;
+}
+
+h5{
+    border: 2px solid rgba(71, 145, 255, 0.486);
+    border-radius: 10px;
+    color: rgba(58, 36, 109, 0.466);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+#marcas{
+    color: burlywood;
+}
+
+
+.form{
+    width: 600px;
+    background: #c29B61;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+}
+
+    
+.form h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.grupo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid wheat;
+    font-family: calibri;
+    font-size: 18px;
+
+}
+.grupo > label{
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.chek{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.botones_formulario{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.botones_formulario:hover{
+    cursor: pointer;
+}
+.chek > label{
+    font-size: 20px;
+}
+.form> textarea{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+.btn_enviar{
+    padding: 10px;
+    font-size: 20px;
+    width: 50%;
+}
+.btn_cont{
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.grupo > input{
+    font-size: 25px;
+    padding: 10px;
+}
+.label form{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+form a{
+    color: white;
+    text-decoration: none;
+}
